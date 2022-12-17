@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "home": "Uy",
+    "about": "Men Haqimda",
+    "projects": "Prayektlar",
+    "blog": "Bloglar",
+    "contact": "Aloqa",
+    "changeLanguage": "Tilni o'zgartirish"
+  },
+  "hero": {
+    "topTitle": "Salom 👋, Mening ismim",
+    "description": "Men MERN stack dasturchisi, Content Yaratuvchi, Kalistenik Atleti, Filosofia Muhlisi, Sobiq Kurashchi va Bokschiman",
+    "heroCtaBtn": "Loyihalarimni Ko'ring"
+  },
+  "about": {
+    "title": "Men Haqimda",
+    "text1": "Salom 👋, Men web applikatsilarni MERN deb nomlangan eng yaxshi texnologiya staki orqali yarataman  😎.",
+    "text2": "Menga yaratilishini xoxlaydigan g'oyangizni ayting va men uni sizga meni dasturlash mahoratim bilan yaratib beraman.",
+    "text3": "Dasturlashni qanchalik yoqtirmay, qanchalik ko'p vaqt sarflamay, Men dasturlashdan tashqari hobiylarim bilan shug'ullanishni yoqtiraman, masalan Kalistenik bilan shug'ullanishni sevaman 💪. Shunaqa gap borki sog'lom tanda sog' aql",
+    "text4": "Bo'sh vaqtimda sport bilan shug'ullanishdan tashqari, Filosofiya yo'nalishidagi kitoblarni o'qishni yoqtiraman. Chunki bu yo'nalishdagi kitoblar menga dunyoning eng aqlli insonlarini fikri bilan tanishishga imkon beradi va albatta meni aqliy salohiyatimi oshishiga sabab bo'ladi."
+  },
+  "myProjects": {
+    "title": "Mening Loyihalarim",
+    "bloodDonationApp": {
+      "project1Title": "Qon Doner APP",
+      "project1Text1": "Qon Doner Applikatsiyasi qonini doner qiladigan va qonga muhtoj bo'lgan insonlarni yaqinlashtirishga ko'mak beradi. Bu applikatsiya, qonga muhtoj inslarga Uzbekistan yoki o'zlariga yaqin bo'lgan shaharlardan qon donorlarini topishga ko'maklashadi. Va har qanday odam qon donori bo'la oladi va odamlarni hayotini saqlashga sabab bo'la oladi va donorlarni ma'lumotlari sir saqlanadi. Va ular vaqinchalik donerlar safidan chiqarib turishni iltimos qilishlari mumkin va Admin ularni donerlar safatidan chiqarib turadi iltimosga ko'ra",
+      "project1Text2": "Admin websaytning kontentlarini applikatsiyaga o'rnatilgan CMS orqali o'zgartirib boradi.",
+      "project1TechStack": "Texnolgiya Staki"
+    },
+    "pharmacyManagementApp": {
+      "projectTitle": "Farmasevtika Boshaqaruv APP",
+      "projectText1": "Farmasevtika Boshaqaruv Applikatsiyasi admin va farmasevt qismidan iborat. Adminning quyidagi vakolatlari br. yangi dorilar, dori kompaniyalari, va farmasevtal qo'shish. Admin har bir farmasevtning 2 muddat orasidagi qilgan tushumlarini ham nazoraq qila oladi. Va admin 2 muddat orasidaga omborxona reportini ko'rib nazorat qila oladi. Farmasevt kartga dorilarni qo'shib, mijoz to'lov turi, uning ismi, va telefon raqamini kiritgan holda dorilarni zakaz qila oladi. Va barcha zakazlarni farmasevt va admin ko'radi. Har bir zakaz uchun invoice yaratiladi va u ham bosib chiqarila oladi va uni skachat qilish mumkin.",
+      "projectTechStack": "Texnolgiya Staki"
+    },
+    "productFeedbackApp": {
+      "projectTitle": "Maxsulot Fidbak APP",
+      "projectText1": "Maxsulot Fidbak Applikatsiyasi bu mahsulot egalariga ularning mahsulotlari to'grisidagi fikrlar, fibaklarni to'plashga ko'mak beradi. Foydalanuvchilar ularning akkountlarnini Google, Linkedin va Facebook akkountlarini orqali tugmani bosish orqali yaratishlari mumkin yoki ularning emaillari va o'zlari haqidagi ma'lumotlari orqali. Foydalanuvchi o'zining akkountini yaratgandan so'ng, unga applikatsiyadan foydalanish huquqi beriladi, va foydalanuvchi oz mahsulot faqida fidbak yaratishi, uni o'zgartirishi va udalit qilish, qolganlarini fikriga ovoz berishi yoki qarshi ovoz berishi, izoh qoldirish yoki izohga javob qoldirish mumkin. Va shuningdek foydalanuvchi uning profayldagi rasmini o'zgartirishi yoki uning shaxsiy ma'lumotini o'zgartirishi mumkin.",
+      "projectText2": "Admin mahsulotlarning maqomini rejalashtirilyapti, yaratilyaptidan to yaratildi ga o'zgartira oladi.",
+      "projectTechStack": "Texnolgiya Staki"
+    }
+  },
+  "contact": {
+    "title": "Men Bilan Bog'aning",
+    "description": "Agar sizda applikatsiya g'oyasi bo'lsa yoki men bilan bir loyihada ishlashni hohlasangiz, torinmasdan salom deng, men chiqishimli insonman. 😀",
+    "contactCtaBtn": "Menga Email Yozing"
+  },
+  "footer": {
+    "copyright": "© 2022 - Yaratildi & Dasturlandi ❤️ bilan Jaxongir Rahimov tomonidan"
+  }
+}

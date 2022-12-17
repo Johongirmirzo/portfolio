@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blogs",
+    "contact": "Contact",
+    "changeLanguage": "Change Language"
+  },
+  "hero": {
+    "topTitle": "Hi There 👋, My name's",
+    "description": "I'm MERN stack developer, Content Creator, Calisthenics Athlete, Philosophy Enthuasiast, Former Wrestler, and Boxer",
+    "heroCtaBtn": "View My Projects"
+  },
+  "about": {
+    "title": "About Myself",
+    "text1": "Hi 👋, I build web apps using the greatest technology stack ever so-called MERN 😎.",
+    "text2": "Tell me your idea of what you want to be built, and then I bring your idea to the real world with my coding skills",
+    "text3": "As much as I love coding and spent as much time as I can, I also love to do my hobbies such as training with Calisthenics 💪. As there's saying healthy body, healthy mind",
+    "text4": "Other than training training in free time, I also love reading books especially on category of philosophy. As it gives me chance to read words of the wisest people and improve my intelligence"
+  },
+  "myProjects": {
+    "title": "My Precious Projects",
+    "bloodDonationApp": {
+      "project1Title": "Blood Donation APP",
+      "project1Text1": "Blood donation App that solves the problem of inconnectivity between blood donors and blood requirers. This app allows people within Uzbekistan to find people blood donor in their area or in the neighbouring cities. And any person can become a donor and save a life and their anonmyty is protected. And in request they can be hidden from the list of the donors by the Admin of the app",
+      "project1Text2": "Admin updates contents of the website with the CMS system built into the admin dashboard",
+      "project1TechStack": "Technology Stack"
+    },
+    "pharmacyManagementApp": {
+      "projectTitle": "Pharmacy Management APP",
+      "projectText1": "PHM is the app which consists of 2 parts, the admin and the pharmacist. The Admin can do followings. Add new medicines, new medical companies, and new pharmacists. He can also view overall sale reports by all the pharmacists between the given dates. He can also individually see each pharmacist's sale report between two dates. He can also check stocks reports between 2 dates. The Pharmacists, add new madicines to the cart and makes order by filling the custoemr name, phone number, and his payment type. All those orders appear on both pharmacist and the admin. Invoice is generated for each order and it can be both printed and downloaded.",
+      "projectTechStack": "Technology Stack"
+    },
+    "productFeedbackApp": {
+      "projectTitle": "Product Feedback APP",
+      "projectText1": "Product Feedback App allows product owners to collect feedback on their product features. User can create his account via 3rd party authentication such as Google, Linkedin, or Facebook or with his email, and password. Once authenticated, users can leave, edit, delete their feedbacks, upvote or downvoate feedbacks, leave a comment or reply to the comment. And they can change their profile data and photo",
+      "projectText2": "Admin can update the status of the features from planning, in-progress to live",
+      "projectTechStack": "Technology Stack"
+    }
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "Do you've an app idea or want to collobarate with me, if so then don't be shy, just say hello, I'm very friendly 😀",
+    "contactCtaBtn": "Mail Me"
+  },
+  "footer": {
+    "copyright": "© 2022 - Designed & Coded with ❤️ by Jaxongir Rahimov"
+  }
+}

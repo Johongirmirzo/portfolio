@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "home": "Dom",
+    "about": "O mnie",
+    "projects": "Projekty",
+    "blog": "Blogi",
+    "contact": "Kontakt",
+    "changeLanguage": "Zmień język"
+  },
+  "hero": {
+    "topTitle": "Cześć 👋, mam na imię",
+    "description": "Jestem programistą stosu MERN, twórcą treści, sportowcem kalisteniki, enthuasiastą filozofii, byłym zapaśnikiem i bokserem",
+    "heroCtaBtn": "Wyświetl moje projekty"
+  },
+  "about": {
+    "title": "O sobie",
+    "text1": "Witam 👋, tworzę aplikacje internetowe przy użyciu największego stosu technologicznego w historii tzw. MERN 😎.",
+    "text2": "Powiedz mi swój pomysł na to, co chcesz zbudować, a następnie przeniosę twój pomysł do prawdziwego świata dzięki moim umiejętnościom kodowania",
+    "text3": "Tak jak kocham kodowanie i spędzam tyle czasu, ile mogę, uwielbiam też robić swoje hobby, takie jak trening z kalisteniką 💪. Jak mówi się zdrowe ciało, zdrowy umysł",
+    "text4": "Poza treningiem w czasie wolnym, uwielbiam też czytać książki, zwłaszcza z kategorii filozofii. Ponieważ daje mi szansę czytania słów najmądrzejszych ludzi i doskonalenia mojej inteligencji"
+  },
+  "myProjects": {
+    "title": "Moje projekty",
+    "bloodDonationApp": {
+      "project1Title": "Oddawanie krwi APP",
+      "project1Text1": "Oddawanie krwi App Rozwiązuje to problem braku łączności między dawcami krwi a osobami potrzebującymi krwi. Ta aplikacja pozwala ludziom w Uzbekistanie znaleźć dawców krwi w ich okolicy lub w sąsiednich miastach. I każda osoba może zostać dawcą i uratować życie, a jej anonmyty jest chroniona. Na żądanie mogą zostać ukryte na liście darczyńców przez administratora aplikacjip",
+      "project1Text2": "Administrator aktualizuje zawartość strony za pomocą systemu CMS wbudowanego w pulpit administracyjny",
+      "project1TechStack": "Stos technologii"
+    },
+    "pharmacyManagementApp": {
+      "projectTitle": "Zarządzanie apteką APP",
+      "projectText1": "PHM to aplikacja, która składa się z 2 części, administratora i farmaceuty. Administrator może wykonywać następujące czynności. Dodaj nowe leki, nowe firmy medyczne i nowych farmaceutów. Może również przeglądać ogólne raporty sprzedaży wszystkich farmaceutów między podanymi datami. Może również indywidualnie zobaczyć raport sprzedaży każdego farmaceuty między dwiema datami. Może również sprawdzić raporty zapasów między 2 datami. Farmaceuci dodają nowe madicines do koszyka i składają zamówienie, wypełniając nazwisko custoemra, numer telefonu i rodzaj płatności. Wszystkie te zlecenia pojawiają się zarówno na farmaceucie, jak i na administratorze. Faktura jest generowana dla każdego zamówienia i może być zarówno wydrukowana, jak i pobrana.",
+      "projectTechStack": "Stos technologii"
+    },
+    "productFeedbackApp": {
+      "projectTitle": "Opinie o produkcie APP",
+      "projectText1": "Aplikacja Product Feedback umożliwia właścicielom produktów zbieranie opinii na temat ich funkcji produktu. Użytkownik może utworzyć swoje konto za pomocą uwierzytelniania stron 3rd, takiego jak Google, LinkedIn lub Facebook lub za pomocą swojego adresu e-mail i hasła. Po uwierzytelnieniu użytkownicy mogą wystawiać, edytować, usuwać swoje opinie, głosować w górę lub zmniejszać opinie, zostawiać komentarze lub odpowiadać na komentarze. Mogą też zmienić swoje dane profilowe i zdjęcie",
+      "projectText2": "Administrator może aktualizować stan funkcji od planowania, w toku do aktywności",
+      "projectTechStack": "Stos technologii"
+    }
+  },
+  "contact": {
+    "title": "Połączmy się",
+    "description": "Czy masz pomysł na aplikację lub chcesz ze mną współpracować, jeśli tak, to nie wstydź się, po prostu przywitaj się, jestem bardzo przyjazny 😀",
+    "contactCtaBtn": "Napisz do mnie"
+  },
+  "footer": {
+    "copyright": "© 2022 - Projekt i kodowanie: ❤️ Jaxongir Rahimov"
+  }
+}
