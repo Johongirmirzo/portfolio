@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import MyPicture from "../../../assets/me.jpg";
 import { useThemeContext } from "../../../context/ThemeContext";
-import { HeroBox } from "./index.styled";
+import { HeroBox, HeroResumeBtn } from "./index.styled";
+import MyResume from "../../../assets/my-resume.pdf";
 
 const Hero = () => {
   const theme = useThemeContext();
@@ -43,6 +44,15 @@ const Hero = () => {
       >
         {t("hero.heroCtaBtn")}
       </motion.a>
+      <HeroResumeBtn
+        animate={{ translateY: [100, 0, 0] }}
+        transition={{ type: "spring", times: [0, 0.1, 0.9] }}
+        href={MyResume}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Resume
+      </HeroResumeBtn>
     </HeroBox>
   );
 };

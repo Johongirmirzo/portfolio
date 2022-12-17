@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
 const HeroBox = styled.section`
   max-width: 960px;
@@ -62,5 +63,8 @@ const HeroBox = styled.section`
       }
     `};
 `;
+const HeroResumeBtn = styled(motion.a)`
+  margin-left: 25px;
+`;
 
-export { HeroBox };
+export { HeroBox, HeroResumeBtn };
