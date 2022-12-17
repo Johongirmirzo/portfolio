@@ -32,7 +32,7 @@ const Nav = styled.nav`
         height: 50px;
         border: 3px solid hsl(166, 90%, 40%);
         border-radius: 50%;
-        margin-right: clamp(10rem, calc(5vw + 5rem), 15rem);
+        margin-right: clamp(12rem, calc(8vw + 5rem), 20rem);
     }
     & ul {
         list-style: none;
