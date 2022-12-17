@@ -50,6 +50,7 @@ const Hero = () => {
         href={MyResume}
         target="_blank"
         rel="noreferrer"
+        isLightMode={theme.isLightMode}
       >
         Resume
       </HeroResumeBtn>

@@ -72,6 +72,9 @@ const MobileMenuHamburger = styled(Hamburger)`
   right: 20px;
   z-index: 9999;
   & div {
+    width: 25px;
+  }
+  & div:nth-child(3) {
     width: 35px;
   }
   & > *:first-child {
