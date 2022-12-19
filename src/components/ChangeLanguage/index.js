@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BsGlobe, BsCheckLg } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
@@ -7,12 +7,26 @@ import { England, Uzbekistan, Russian, Poland } from "../../assets";
 import { ChangeLanguageBox } from "./index.styled";
 
 const ChangeLanguage = ({ handleCloseMenuClick }) => {
-  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
-  const theme = useThemeContext();
   const { t, i18n } = useTranslation();
+  const theme = useThemeContext();
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
 
-  const handleToggleLanguageDropdownClick = () =>
+  useEffect(() => {
+    const body = document.body;
+    const toggleChangeLanguageMenu = () => {
+      console.log(isLanguageDropdownOpen);
+      if (isLanguageDropdownOpen) {
+        setIsLanguageDropdownOpen(false);
+      }
+    };
+    body.addEventListener("click", toggleChangeLanguageMenu);
+    return () => body.removeEventListener("click", toggleChangeLanguageMenu);
+  }, [isLanguageDropdownOpen]);
+
+  const handleToggleLanguageDropdownClick = (e) => {
+    e.stopPropagation();
     setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
+  };
 
   const handleChangeLanguageClick = (language = "en") => {
     i18n.changeLanguage(language.toLowerCase());

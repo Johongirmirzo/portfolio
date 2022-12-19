@@ -11,6 +11,7 @@ import {
 
 const MobileMenu = ({ isMenuOpen, handleCloseMenuClick }) => {
   const theme = useThemeContext();
+
   return (
     <MobileMenuBox
       isMenuOpen={isMenuOpen}

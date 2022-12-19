@@ -19,6 +19,7 @@ const ChangeLanguageBox = styled.div`
     transition: all 0.3s ease-out;
     visibility: hidden;
     opacity: 0;
+    z-index: 9999;
     & li {
       display: flex;
       align-items: center;
