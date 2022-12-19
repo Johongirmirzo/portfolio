@@ -8,15 +8,9 @@ const HeroBox = styled.section`
   min-height: 100vh;
   padding-top: 200px;
   padding-left: 10px;
-  @media (min-width: 768px) {
-    padding-left: 0;
-    & div {
-      display: flex;
-      gap: 50px;
-    }
-  }
   & div {
     & h1 {
+      margin-top: 25px;
       font-size: clamp(2rem, calc(3.5vw + 1rem), 4rem);
       & span {
         display: block;
@@ -50,6 +44,16 @@ const HeroBox = styled.section`
     background: #111;
     cursor: pointer;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  @media (min-width: 768px) {
+    padding-left: 0;
+    & div {
+      display: flex;
+      gap: 50px;
+      & h1 {
+      margin-top: 0;
+    }
+    }
   }
   ${(props) =>
     props.theme &&
