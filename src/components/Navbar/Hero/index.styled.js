@@ -20,9 +20,10 @@ const HeroBox = styled.section`
     }
   }
   & img {
-    max-width: 100%;
-    width: 300px;
-    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
     transition: all 0.3s ease-out;
     opacity 0.8;
     &:hover {
