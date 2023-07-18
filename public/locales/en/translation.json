@@ -21,6 +21,12 @@
   },
   "myProjects": {
     "title": "My Precious Projects",
+    "onlinePizzaDelivery": {
+      "pizzaDeliveryTitle": "Online Pizza Restaurant",
+      "pizzaDeliveryDescription": "Online Pizza Restaurant consists of 2 parts. Admin and Customer. Admin is responsible for adding menu categories and items under each menu category, change the status each customer order. Viewing statistics, dealing with applicants, employees, reports, messages, reviews",
+      "pizzaDeliveryDescription2": "Customer can add items that he wants to his cart but he's required to login in order to checkout and make an order. Once he'd make his order, he's redirected to order tracking page where he can check status of his order in real time.",
+      "pizzaDeliveryTechStack": "Technology Stack"
+    },
     "bloodDonationApp": {
       "project1Title": "Blood Donation APP",
       "project1Text1": "Blood donation App that solves the problem of inconnectivity between blood donors and blood requirers. This app allows people within Uzbekistan to find people blood donor in their area or in the neighbouring cities. And any person can become a donor and save a life and their anonmyty is protected. And in request they can be hidden from the list of the donors by the Admin of the app",

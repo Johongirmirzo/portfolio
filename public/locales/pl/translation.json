@@ -21,6 +21,12 @@
   },
   "myProjects": {
     "title": "Moje projekty",
+    "onlinePizzaDelivery": {
+      "pizzaDeliveryTitle": "Online Pizza Restaurant",
+      "pizzaDeliveryDescription": "Online Pizza Restaurant składa się z 2 części. Administrator i klient. Administrator jest odpowiedzialny za dodawanie kategorii menu i pozycji w każdej kategorii menu, zmianę statusu każdego zamówienia klienta. Przeglądanie statystyk, zajmowanie się kandydatami, pracownikami, raportami, wiadomościami, recenzjami",
+      "pizzaDeliveryDescription2": "Klient może dodać przedmioty, które chce do koszyka, ale musi się zalogować, aby zrealizować transakcję i złożyć zamówienie. Po złożeniu zamówienia jest przekierowywany na stronę śledzenia zamówienia, gdzie może sprawdzić status swojego zamówienia w czasie rzeczywistym.",
+      "pizzaDeliveryTechStack": "Stos technologii"
+    },
     "bloodDonationApp": {
       "project1Title": "Oddawanie krwi APP",
       "project1Text1": "Oddawanie krwi App Rozwiązuje to problem braku łączności między dawcami krwi a osobami potrzebującymi krwi. Ta aplikacja pozwala ludziom w Uzbekistanie znaleźć dawców krwi w ich okolicy lub w sąsiednich miastach. I każda osoba może zostać dawcą i uratować życie, a jej anonmyty jest chroniona. Na żądanie mogą zostać ukryte na liście darczyńców przez administratora aplikacjip",

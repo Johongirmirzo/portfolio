@@ -7,6 +7,7 @@ import {
   BloodDonorImg,
   ProductFeedbackImg,
   PharmacyAppImg,
+  OnlinePizzaImg,
 } from "../../assets";
 import { useThemeContext } from "../../context/ThemeContext";
 import { scrollConfigs } from "../../config/scrollAnimationConfig";
@@ -27,6 +28,67 @@ const Projects = () => {
       <motion.header variants={scrollConfigs}>
         <h2>{t("myProjects.title")}</h2>
       </motion.header>
+      <ProjectCard
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        <motion.a
+          href="https://online-pizza-delivery.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          variants={scrollConfigs}
+        >
+          <img
+            src={OnlinePizzaImg}
+            alt="pic of the client side of the online pizza restaurant app"
+          />
+        </motion.a>
+        <motion.div variants={scrollConfigs}>
+          <header>
+            <h3>{t("myProjects.onlinePizzaDelivery.pizzaDeliveryTitle")}</h3>
+            <p>
+              {t("myProjects.onlinePizzaDelivery.pizzaDeliveryDescription")}
+            </p>
+            <p>
+              {t("myProjects.onlinePizzaDelivery.pizzaDeliveryDescription2")}
+            </p>
+          </header>
+          <div>
+            <h4>
+              {t("myProjects.onlinePizzaDelivery.pizzaDeliveryTechStack")}
+            </h4>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Typescript</li>
+              <li>Postgres</li>
+              <li>Prisma</li>
+              <li>Jsonwebtoken</li>
+              <li>Nuxt 3</li>
+              <li>Yup</li>
+            </ul>
+          </div>
+          <ProjectCardLinkBox>
+            <a
+              href="https://github.com/Johongirmirzo/online-pizza-service"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              <BsGithub />
+            </a>
+            <a
+              href="https://online-pizza-delivery.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              <HiOutlineExternalLink />
+            </a>
+          </ProjectCardLinkBox>
+        </motion.div>
+      </ProjectCard>
       <ProjectCard
         initial="offscreen"
         whileInView="onscreen"

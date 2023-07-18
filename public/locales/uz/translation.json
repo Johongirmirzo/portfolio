@@ -21,6 +21,12 @@
   },
   "myProjects": {
     "title": "Mening Loyihalarim",
+    "onlinePizzaDelivery": {
+      "pizzaDeliveryTitle": "Online Pitsa Restorani",
+      "pizzaDeliveryDescription": "Online Pitsa Restorani 2 ta qismdan iborat. Adminstrator va Mijoz. Admin menyu kategoriyalarini qoshish and shu har bir kategoriyaga aytimlar ni qo'shish. var har bir mijozning zakaz holatini real taymda ozgartirish. Statiskani kuzatish, ishga topshirivuchilar bilan shugullanish, restarant ishchilarni nazorat qilish, va hamda habarlar va revyular ni kuzatib borish",
+      "pizzaDeliveryDescription2": "Restarant mijozi ozining kartiga har qanda menu aytimini qosha oladi ammo zakaz qilish uchun u roythadan otishi talab qilinad. Royhatdan otib ozi tanlagan aytimlarni zakaz qilgandan keyin, foydalanuvchi uning zakazlarini real taymda tekshiradigan sahifaga otadi. Va foydalanuvchi u sahifada ozining zakazlarini real taymda kuzata oladi",
+      "pizzaDeliveryTechStack": "Texnolgiya Staki"
+    },
     "bloodDonationApp": {
       "project1Title": "Qon Doner APP",
       "project1Text1": "Qon Doner Applikatsiyasi qonini doner qiladigan va qonga muhtoj bo'lgan insonlarni yaqinlashtirishga ko'mak beradi. Bu applikatsiya, qonga muhtoj inslarga Uzbekistan yoki o'zlariga yaqin bo'lgan shaharlardan qon donorlarini topishga ko'maklashadi. Va har qanday odam qon donori bo'la oladi va odamlarni hayotini saqlashga sabab bo'la oladi va donorlarni ma'lumotlari sir saqlanadi. Va ular vaqinchalik donerlar safidan chiqarib turishni iltimos qilishlari mumkin va Admin ularni donerlar safatidan chiqarib turadi iltimosga ko'ra",

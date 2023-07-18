@@ -5,6 +5,7 @@ import Poland from "./poland.png";
 import BloodDonorImg from "./blood-donor-app.png";
 import PharmacyAppImg from "./pharmacy-app.png";
 import ProductFeedbackImg from "./product-feedback.png";
+import OnlinePizzaImg from "./Screenshot (1132).png";
 
 export {
   England,
@@ -14,4 +15,5 @@ export {
   BloodDonorImg,
   ProductFeedbackImg,
   PharmacyAppImg,
+  OnlinePizzaImg,
 };
